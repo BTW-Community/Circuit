@@ -1,6 +1,7 @@
 package btw.community.circuit;
 
 import btw.BTWAddon;
+import net.fabricmc.circuit.CircuitInitializer;
 import net.fabricmc.circuit.block.CircuitBlock;
 
 public class CircuitAddon extends BTWAddon {
@@ -16,6 +17,7 @@ public class CircuitAddon extends BTWAddon {
 
     @Override
     public void initialize() {
-
+        CircuitBlock.initBlock();
+        CircuitInitializer.initMod();
     }
 }

@@ -11,7 +11,7 @@ public class BlockChute extends BlockContainer {
         this.setHardness(3.0F);
         this.setResistance(8.0F);
         this.setStepSound(Block.soundMetalFootstep);
-        this.setTextureName("chute");
+        this.setUnlocalizedName("ccBlockChute");
         this.setCreativeTab(CreativeTabs.tabRedstone);
         this.initBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 1.0F, 1.0F);
     }
